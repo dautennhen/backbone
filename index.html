@@ -1,0 +1,63 @@
+<!doctype html> 
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="Content-Language" content="fr">
+	<title></title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/config.js"></script>
+	<script data-main="js/main" src="js/libs/require/require.js"></script>
+</head>
+<body>
+
+<div id="container">
+  <div id="logo">
+    <h1>Modular</h1>
+  </div>
+
+  <div class="menu navbar">
+    <div class="navbar-inner">
+      <ul class="nav">
+        <li><a href="#a" >Home</a></li>
+		<li ><a href="#project" >Project</a></li>
+        <li ><a href="#project/renderItem" >Project load item</a></li>
+		<li ><a href="#project/renderList" >Project load list</a></li>
+		<li ><a href="#project/render" >Project load all</a></li>
+      </ul>
+    </div>
+  </div>
+
+	<div id="list">
+    list Loading....
+  </div>
+  <div id="item">
+    item Loading....
+  </div>
+  <div id="page">
+    Loading....
+  </div>
+  
+  <div id="lang">
+    <span data-i18n="item">data-i18n</span>
+	<span data-i18n="list">data-i18n</span>
+  </div>
+  
+  <div id="formTest">
+    <form method="post" action="testform.php" >
+		<input type="email" oninvalid="setCustomValidity('Lütfen isaretli yerleri doldurunuz')" />
+		<input type="email" />
+		<div class="div_error"></div>
+		<button>test valid input</button>
+	</form>
+  </div>
+  
+  <div id="footer"></div>
+</div> 
+
+</body>
+</html>
