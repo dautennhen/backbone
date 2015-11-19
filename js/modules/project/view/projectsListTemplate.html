@@ -1,0 +1,7 @@
+<ul>
+  <% _.each(items, function(item){ %>
+   <li data-href="<%= item.get('url') %>">
+	<%= item.get("title") %>
+	</li> 
+  <% }); %>
+</ul>

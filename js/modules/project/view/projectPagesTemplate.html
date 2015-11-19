@@ -1,0 +1,13 @@
+<div class="pagelist">
+  <% _.each(items, function(item, index){ 
+		if(index==0) {
+  %>
+   <div class="page active">
+   <% } else {%>
+	<div class="page">
+   <% } %>
+	<%= item.get("title") %>
+	</div> 
+  <% }); %>
+</div>
+</div>
